@@ -20,13 +20,15 @@
                     <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP!</a></li>
                         <li><a href="exercicio.php?dir=basico&file=html">Integracao HTML</a></li>
                         <li><a href="exercicio.php?dir=basico&file=css">Integracao CSS</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=comentarios">Comentarios PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=desafio">Desafio PHP</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
+        COD3R & ALUNOS © <?= date('Y-m-d H:i:s'); ?>
     </footer>
 </body>
 </html>

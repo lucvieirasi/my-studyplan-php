@@ -1,17 +1,16 @@
 <div class="titulo">Integracao com o HTML</div>
 
-<h1>
+<h1 center>
     <?php
     echo 'Olá';
-    echo '<small>';
     echo ' Mundo!';
     echo '</small>';
     ?>
 </h1>
 
-<?= "<div>Outra forma de expressar!</div>"; ?>
+<?= "<div center azul>Outra forma de expressar!</div>"; ?>
 <br>
-<div><button><?= "Legal" ?></button></div>
+<div center><button dobro><?= "Legal" ?></button></div>
 
 <style>
     button {
