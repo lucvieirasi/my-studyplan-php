@@ -10,9 +10,16 @@ echo '<br>';
 
 echo 'Nos tambem' . ' Somos';
 echo '<br>', 'Tambem aceito', ' virgulas';
-
 echo "'Teste '" . "'Teste'";
 
 print("<br> Tambem existe a funcao print");
 echo '<br>' . strtoupper('Tudo Maiusculo');
 echo '<br>' . strtolower('Tudo Minusculo');
+
+echo '<br>' . ucfirst('primeira');
+echo '<br>' . ucwords('todas as palavras');
+
+echo '<br>' . strlen('HelloWorld');
+
+echo '<br>' . mb_strlen('Eu tambem', 'utf-8');
+
