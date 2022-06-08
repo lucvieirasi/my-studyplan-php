@@ -23,3 +23,8 @@ echo '<br>' . strlen('HelloWorld');
 
 echo '<br>' . mb_strlen('Eu tambem', 'utf-8');
 
+echo '<br>' . substr('So uma parte mesmo', 7, 7);
+
+echo '<br>' . str_replace('Isso', 'aquilo', 'trocar isso isso');
+
+
